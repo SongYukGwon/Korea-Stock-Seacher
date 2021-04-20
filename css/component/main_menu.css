@@ -1,0 +1,47 @@
+.main_menu{
+    width:100vw;
+    background-color: black;
+    display: flex;
+}
+
+.main_menu{
+    color:white
+}
+
+.web_logo{
+    width:230px;
+    height: 90px;
+}
+
+
+.side-menu{
+    width: 80vw;
+    background-color: black;
+}
+
+
+.side-menu_list li{
+    display: inline;
+    padding:10px;
+}
+
+.side-menu_list li:hover{
+    background-color: white;
+    color: black;
+}
+
+.main_stock-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_stock-seacher{
+    margin-left:50px;
+}
+
+.main_stock-seacher input{
+    border:none;
+    border-radius: 2px;
+    width: 200px;
+    margin-top:20px;
+}
